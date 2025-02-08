@@ -28,7 +28,7 @@ for(let i = 0; i < squares.length; i++){
         squares[i].textContent = currentPlayer
         if(checkWin(currentPlayer)) {
             if (currentPlayer == '♡') {
-                endMessage.textContent= "you win 1 day as my valentine ! (only if u want tho)"
+                endMessage.textContent= "you win 1 day as my valentine ! (plsplspls 🥺) (only if u want tho)"
                 lofi.play();
             } else {
                 endMessage.textContent="how tf did u loose bruh"
